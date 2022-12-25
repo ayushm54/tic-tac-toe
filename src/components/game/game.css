@@ -1,0 +1,38 @@
+.playButton {
+    background: #f0fbff;
+    border: 3px solid #08080e;
+    font-size: 45px;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.successMessage {
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+    background-color: #f0fbff;
+    border-radius: 7px;
+    border-left: 25px solid #47D764;
+    display: grid;
+    grid-template-columns: 1.3fr 6fr 0.5fr;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 8%);
+    font-size: 15px;
+    border-right: 25px solid #47D764;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    color: black;
+    padding: 20px;
+    background-color: #f0fbff;
+    border-radius: 7px;
+    border-left: 25px solid #ff355b;
+    display: grid;
+    grid-template-columns: 1.3fr 6fr 0.5fr;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 8%);
+    font-size: 15px;
+    border-right: 25px solid #ff355b;
+}
